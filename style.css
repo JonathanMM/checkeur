@@ -1,0 +1,188 @@
+.check_item
+{
+    height: 42px;
+    padding: 1px;
+    padding-bottom: 3px;
+    background-color: #B4DBF2;
+}
+
+.event_item, .detail
+{
+    padding: 1px;
+    padding-bottom: 3px;
+    background-color: #B4DBF2;
+    margin: 0px;
+}
+
+body
+{
+    width: 95%;
+    background-color: #E7E7E7;
+}
+
+input
+{
+    width: 95%;
+}
+
+h1, h2
+{
+    font-size: 20px;
+    margin: 0px;
+    width: 100%;
+    background-color: #5E87B0;
+    color: white;
+    font-weight: normal;
+    background-image: linear-gradient(50% 0%, #81A8CE, #5E87B0);
+    background-image: -o-linear-gradient(50% 0%, #81A8CE, #5E87B0);
+    background-image: -webkit-linear-gradient(50% 0%, #81A8CE, #5E87B0);
+    background-image: -moz-linear-gradient(50% 0%, #81A8CE, #5E87B0);
+    text-shadow: 0px -1px 1px #254F7A;
+}
+
+.check_item img
+{
+    height: 40px;
+    float: left;
+    margin-right: 2px;
+}
+
+.detail img
+{
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+header, footer
+{
+	background-color: black;
+}
+
+header
+{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	padding-left: 20px;
+}
+
+footer
+{
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding-left: 20px;
+	color: white;
+}
+
+header a, footer a, nav a
+{
+	color: white;
+}
+
+nav a
+{
+    text-shadow: 0px -1px 1px #254F7A;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.check_item + .check_item, .event_item + .event_item
+{
+	border-top: solid 1px black;
+}
+
+.check_liste_complete_lien
+{
+    background-color: #4FADE6;
+    padding: 1px;
+    padding-bottom: 3px;
+}
+
+.check_liste_complete_lien a
+{
+    color: white;
+}
+
+.check_item a, .reput
+{
+    border: 1px solid black;
+    font-size: 36px;
+    padding: 0px 5px;
+    height: 40px;
+    float: right;
+}
+
+nav
+{
+    background-image: linear-gradient(50% 0%, #CE8181, #B05E5E);
+    background-image: -o-linear-gradient(50% 0%, #CE8181, #B05E5E);
+    background-image: -moz-linear-gradient(50% 0%, #CE8181, #B05E5E);
+    background-image: -webkit-linear-gradient(50% 0%, #CE8181, #B05E5E);
+    background-color: #B05E5E;
+    padding-left: 15px;
+    color: white;
+}
+
+.qr
+{
+    background: white;
+}
+
+.qr td
+{
+    height: 7px;
+    width: 7px;
+}
+
+.on
+{
+    background-color: black;
+}
+
+@media (max-width:160px)
+{
+    .check_item
+    {
+	height: 135px;
+    }
+
+    body
+    {
+	font-size: 50px;
+    }
+
+    input
+    {
+	width: 95%;
+	height: 150px;
+	font-size: 80px;
+    }
+
+    select
+    {
+	font-size: 50px;
+    }
+
+    .checkbox, .radiobox
+    {
+	height: 50px;
+    }
+
+    h1, h2
+    {
+	font-size: 56px;
+    }
+
+    .check_item img
+    {
+	height: 110px;
+    }
+    
+    header
+    {
+	width: 95%;
+    }
+}

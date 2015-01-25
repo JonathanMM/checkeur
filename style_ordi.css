@@ -1,0 +1,59 @@
+.check_item
+{
+    height: 40px;
+    width: 100%;
+    padding: 1px;
+    padding-bottom: 3px;
+    margin: 1px;
+    background-color: #91C6E6;
+}
+
+body
+{
+    width: 99%
+}
+
+checkbox, radiobox
+{
+    height: 50px;
+}
+
+h1, h2
+{
+    margin: 0px;
+}
+
+.check_item img
+{
+    height: 35px;
+    float: left;
+    margin-right: 2px;
+}
+
+.check_item a
+{
+    float: right;
+}
+
+header, footer
+{
+	background-color: #FF7396;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.check_item + .check_item
+{
+	border-top: solid 1px black;
+}
+
+.check_liste_complete_lien
+{
+    background-color: #4FADE6;
+    padding: 1px;
+    padding-bottom: 3px;
+}
